@@ -1,0 +1,7 @@
+#check for multiple of 7
+num = int(input("Enter your num : "))
+
+if num%7==0:
+      print("num is a multiple of 7 ")
+else :
+      print("num is not multiple of 7")
