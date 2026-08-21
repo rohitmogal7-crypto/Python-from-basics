@@ -1,0 +1,13 @@
+name= input("enter your name : ")
+print("Length of your name is : ",len(name))
+str = "sunday is sunny and sun is super."
+print("occurances of the letter s in string : ", str.count('s'))
+
+age= int(input("Enter your age : "))
+
+if age>=18:
+    print("adult")
+elif age>=13 & age<18:
+    print("teenager")
+else :
+    print("kid")
