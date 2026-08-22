@@ -1,0 +1,5 @@
+#lists
+student=["karan",87,88.08,"bio"]
+print(len(student))
+student[0]="arun"
+print(student)
