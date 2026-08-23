@@ -1,0 +1,6 @@
+#Tup methods
+tup=(8,3,5,543,4)
+print(type(tup))
+print(tup[4])
+print(tup.index(543))
+print(tup.count(3))
