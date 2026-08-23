@@ -1,0 +1,8 @@
+#count in tupple
+tup=('A','D','S','A','A','A','F')
+print(tup.count('A'))
+
+#writting above tupple in lists
+tup=['A','D','S','A','A','A','F']
+tup.sort()
+print(tup)
