@@ -1,0 +1,27 @@
+#questions on dictionary and sets
+#Q1
+dict={
+    "table":("a pice of furniture","list of facts and figures"),
+    "cat":"a small animal"
+}
+print(dict)
+#Q2
+classrooms={"python","python","python","python","c","c","c","c++","java"}
+print("classroom required for subjects : ",len(classrooms))
+
+#Q3
+marks={}
+x=input("enter your math marks : ")
+marks.update({"math":x})
+x=input("enter your phy marks : ")
+marks.update({"phy":x})
+x=input("enter your che marks : ")
+marks.update({"che":x})
+
+print(marks)
+
+#Q4
+values={9,"9.0"}
+print(values)
+values1={("float",9.0),("int",9)}
+print(values1)
