@@ -1,0 +1,12 @@
+#List METHODS
+marks=[32,43,234,23,52,12]
+marks.append(90)
+print(" marks after append",marks)
+marks.sort()
+print(" marks after sort",marks)
+marks.sort(reverse=True)
+print(" marks after sort reverse",marks)
+marks.reverse()
+print(" marks after reverse",marks)
+marks.insert(0,59)
+print(" marks after insert",marks)
