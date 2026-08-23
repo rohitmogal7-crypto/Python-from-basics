@@ -1,0 +1,27 @@
+#nested-dictonaru in python and dictionaries methodes
+student = {
+    "name":"rajuu",
+    "score" : {
+        "math":99,
+        "chem":99
+    }
+}
+print(student["score"]["math"])
+
+print(student.keys())
+print(student.values())
+print(student.items())
+print(student.get("score"))
+
+print(list(student.keys()))
+print(len(list(student.keys())))
+
+student.update(
+    {
+        "minors":{
+            "physics":39,
+            "chem":39 
+            }
+            }
+            )
+print(student)
