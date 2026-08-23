@@ -1,0 +1,35 @@
+#sets 
+sets={1,3,3,3,1,2,"rohi","rohi"}
+print(sets)
+
+#empty set
+sett=set()
+print(sett)
+print(type(sett))
+
+#sets methodes
+collection=set()
+print(type(collection))
+collection.add(5)
+collection.add("hundred")
+collection.add(2)
+collection.add((2,3,4,2))
+print(len(collection))
+print(collection)
+collection.remove(2)
+print(collection)
+collection.pop()
+print(collection)
+collection.clear()
+print(collection)
+
+#set union and intersection
+
+set1={1,2,4,"rahul","priya",True}
+set2={1,2,4,"rahul",8,"free","empty","priya",True}
+
+set1.union(set2)
+print(set1.union(set2))
+
+set1.intersection(set2)
+print(set1.intersection(set2))
