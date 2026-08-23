@@ -1,0 +1,20 @@
+#dictonaru in python
+dicto= {
+    "name":"rohit",
+    "age":"19",
+    "adult":True
+}
+
+print(type(dicto))
+print(dicto)
+
+dicto["name"] = "sanxx"
+dicto["age"] = 34
+
+print(dicto)
+
+null_dicto={}
+print(null_dicto)
+null_dicto["name"]="null1"
+null_dicto["age"]=2
+print(null_dicto)
