@@ -9,3 +9,14 @@ movies.append(movie3)
 
 
 print(movies)
+#####orrrrrr
+
+#input from user
+
+movies=[]
+movies.append(input("Enter your favourite movie1 name : "))
+movies.append(input("Enter your favourite movie2 name : "))
+movies.append(input("Enter your favourite movie3 name : "))
+
+
+print(movies)
