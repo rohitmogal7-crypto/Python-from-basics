@@ -1,0 +1,8 @@
+#palindrome in lists
+list=[1,2,1]
+copy_list=list.copy()
+
+if (list==copy_list):
+    print("pailndrome")
+else:
+    print("not a pailndrome")
