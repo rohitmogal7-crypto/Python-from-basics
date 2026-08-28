@@ -1,0 +1,33 @@
+#basic questions of while loop
+#Q1
+i=1;
+while i<=100:
+
+    print(i);
+    i+=1;
+#Q2
+i=100;
+while i>=1:
+    print(i);
+    i-=1;
+#Q3
+num=int(input("Enter your numberm : "))
+i=1;
+while i<=10:
+    print(num," x ", i," = ",num*i);
+    i+=1;
+#Q4
+marks=[43,45,53,53,23,34];
+i=1;
+while i<len(marks):
+    print(marks[i]);
+    i+=1;
+#Q5
+markst=(43,65,53,53,23,34);
+x=53;
+i=1;
+while i<len(markst):
+    if x==markst[i]:
+        print("index of the x is : ",i)
+    i+=1;
+
