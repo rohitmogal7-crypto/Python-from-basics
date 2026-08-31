@@ -1,0 +1,27 @@
+#basic questions of for loop and range 
+#print every num in list?
+nums={1,2,3,4,5,4,3}
+for val in nums:
+     print(val)
+   
+#find value of x
+x=5
+indx=0
+for val in nums:
+     if (x==val):
+          print("x is found at index : ", indx)
+          break
+     
+     indx+=1
+
+#range
+for el in range(2):
+     print(el)
+
+#even no using range
+for i in range(2,10,2):
+     print(i)
+
+#for odd no
+for i in range(1,10,2):
+     print(i)
